@@ -13,3 +13,12 @@ let arr2 = arr1.filter(function(item){
 });
 
 console.log(arr2);
+
+var users = [
+   { 'user': 'barney',  'active': true },
+   { 'user': 'fred',    'active': false },
+   { 'user': 'pebbles', 'active': false }
+ ];
+ const myobject = findLastIndex(users, function(o) { return o.user == 'pebbles'; });
+
+ console.log(myobject);
